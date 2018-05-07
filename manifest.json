@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+
+  "name": "theLocal.de - Free",
+  "description": "View all articles on theLocal.de for free. Paywall is disabled after 5 seconds of page load.",
+  "version": "1.0",
+  "permissions": ["activeTab", "*://*.thelocal.de/*"],
+
+  "browser_action": {
+   "default_icon": "logo.png"
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["*://*.thelocal.de/*"],
+      "js": ["unhide.js"]
+    }
+  ]
+}
