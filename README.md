@@ -1,3 +1,3 @@
 Google Chrome Extension for thelocal.de
 
-Removes paywall after 5 seconds of page load, giving full access to most articles on the site.
+Removes member & premuim paywall. Member articles disabled after 4 seconds of page load, premium article paywell disabled instantly although some content such as images may not load fully, in this case refresh page.
