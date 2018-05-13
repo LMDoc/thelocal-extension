@@ -1,9 +1,7 @@
 
 let prem = document.getElementById('premium-container');
 
-function unhide() {
-	console.log('This is working')
-	
+function unhide() {	
 	document.querySelector("div.tp-modal").style.display = "none";
 	document.querySelector("div.tp-backdrop.tp-active").style.display = "none";
 	document.querySelector("body").style.cssText = "overflow: scroll !important";
@@ -11,7 +9,6 @@ function unhide() {
 };
 
 function unhidePrem() {
-	console.log('Prem seen!')
 	window.stop();
 }
 
