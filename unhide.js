@@ -1,4 +1,6 @@
 
+let prem = document.getElementById('premium-container');
+
 function unhide() {
 	console.log('This is working')
 	
@@ -8,5 +10,11 @@ function unhide() {
 	document.querySelector("div#fade-box").style.backgroundImage = "none";
 };
 
+function unhidePrem() {
+	console.log('Prem seen!')
+	window.stop();
+}
+
+if(prem) { unhidePrem() };
 
 setTimeout(unhide, 4000)
